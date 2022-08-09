@@ -1,5 +1,5 @@
 # Finacle-TTUM-maker
-This is a repository for building TTUM via python code check the format below to make sure it is build on TTUM V3 - Finacle - Transfer Transaction Upload Maintainence
+This is a repository for building TTUM via python2.7+ code check the format below to make sure it is build on TTUM V3 - Finacle - Transfer Transaction Upload Maintainence
 
 
 ### Steps for building TTUM and uploading in Finacle.
