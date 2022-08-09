@@ -1,0 +1,17 @@
+Steps for building TTUM and uploading in Finacle.
+
+Step 1. Add entries for debit credit in Inputfile
+Step 2. Install python and run below command in command prompt to install required dependencies using command given below (one time process this can be skipped)
+	pip install -r requirements.txt
+Step 3. Execute the code this will build your TTUM in TTUM folder below code needs to be typed in command prompt
+	python Customop.py (You can skip Step 2 and 3 if you want and open cmd then type Runcode.bat) 
+Step 4. Open Finacle and Fincore menu
+Step 5. Goto HTTUM menu and set the following as below
+	Report to: M
+	Transaction: type Transfer Bank Induced
+	Action type: Enter
+	Rename file: Never
+	Upload file: From local directory
+	Submit
+	Browse and upload
+Step 6. After sucessful upload goto HPR menu in Fincore and then click online and GO it would show report of all transactions uploaded and open the uploaded report and find the transaction id you can print or save the transaction id for your refernce.
